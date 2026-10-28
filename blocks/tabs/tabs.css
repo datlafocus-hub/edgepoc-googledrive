@@ -1,0 +1,39 @@
+.tabs .tabs-list {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  border-bottom: 1px solid #dadada;
+  scrollbar-width: none;
+}
+
+.tabs .tabs-list button {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 12px 20px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  background: none;
+  color: var(--dark-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-s);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tabs .tabs-list button:hover {
+  color: var(--text-color);
+}
+
+.tabs .tabs-list button[aria-selected='true'] {
+  border-bottom-color: var(--link-color);
+  color: var(--text-color);
+}
+
+.tabs .tabs-panel {
+  padding: 16px 0;
+}
+
+.tabs .tabs-panel[hidden] {
+  display: none;
+}

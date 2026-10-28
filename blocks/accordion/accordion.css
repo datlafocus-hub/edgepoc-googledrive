@@ -1,0 +1,52 @@
+.accordion details {
+  border: 1px solid #dadada;
+  margin-bottom: 8px;
+  background-color: var(--background-color);
+}
+
+.accordion details summary {
+  position: relative;
+  padding: 16px 48px 16px 16px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.accordion details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion details summary:hover,
+.accordion details[open] summary {
+  background-color: var(--light-color);
+}
+
+.accordion details summary > * {
+  margin: 0;
+}
+
+.accordion details summary::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid;
+  border-width: 2px 2px 0 0;
+  transform: translateY(-75%) rotate(135deg);
+  transition: transform 0.2s;
+}
+
+.accordion details[open] summary::after {
+  transform: translateY(-25%) rotate(-45deg);
+}
+
+.accordion details .accordion-item-body {
+  padding: 0 16px 16px;
+}
+
+.accordion details .accordion-item-body > :first-child {
+  margin-top: 16px;
+}
