@@ -1,0 +1,80 @@
+{
+  "total": 8,
+  "offset": 0,
+  "limit": 8,
+  "data": [
+    {
+      "Name": "Trail Backpack",
+      "Category": "Outdoor",
+      "Price": "$89",
+      "Description": "Lightweight 28L pack with a padded laptop sleeve.",
+      "Image": "https://picsum.photos/id/1/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Camping Lantern",
+      "Category": "Outdoor",
+      "Price": "$34",
+      "Description": "Rechargeable LED lantern with three brightness levels.",
+      "Image": "https://picsum.photos/id/2/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Hiking Boots",
+      "Category": "Outdoor",
+      "Price": "$129",
+      "Description": "Waterproof leather boots built for rough terrain.",
+      "Image": "https://picsum.photos/id/21/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Wireless Headphones",
+      "Category": "Electronics",
+      "Price": "$149",
+      "Description": "Noise-cancelling headphones with 30-hour battery.",
+      "Image": "https://picsum.photos/id/26/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Smart Watch",
+      "Category": "Electronics",
+      "Price": "$199",
+      "Description": "Fitness tracking, notifications and GPS on your wrist.",
+      "Image": "https://picsum.photos/id/36/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Portable Speaker",
+      "Category": "Electronics",
+      "Price": "$59",
+      "Description": "Pocket-sized Bluetooth speaker with deep bass.",
+      "Image": "https://picsum.photos/id/39/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Ceramic Mug",
+      "Category": "Home",
+      "Price": "$18",
+      "Description": "Hand-glazed 350ml mug, dishwasher safe.",
+      "Image": "https://picsum.photos/id/30/600/400",
+      "Link": "/contact"
+    },
+    {
+      "Name": "Linen Throw",
+      "Category": "Home",
+      "Price": "$65",
+      "Description": "Soft stonewashed linen throw blanket.",
+      "Image": "https://picsum.photos/id/42/600/400",
+      "Link": "/contact"
+    }
+  ],
+  "columns": [
+    "Name",
+    "Category",
+    "Price",
+    "Description",
+    "Image",
+    "Link"
+  ],
+  ":type": "sheet"
+}
